@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.nilportugues.oauth</groupId>
     <artifactId>shared</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.1.0.RC2</version>
     <packaging>jar</packaging>
     <name>nilportugues/shared</name>
     <description>Handy domain modeling classes</description>
