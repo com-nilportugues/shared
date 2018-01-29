@@ -2,7 +2,7 @@ package com.nilportugues.shared.domain;
 
 import java.io.Serializable;
 
-interface DomainEvent extends Serializable {
+public interface DomainEvent extends Serializable {
 
     String getEventId();
 
@@ -16,7 +16,7 @@ interface DomainEvent extends Serializable {
 
     MetaData getMeta();
 
-    interface Payload {
+    public interface Payload {
         String getId();
 
         String getType();
@@ -24,11 +24,11 @@ interface DomainEvent extends Serializable {
         Attributes getAttributes();
     }
 
-    interface Attributes extends Serializable {
+    public interface Attributes extends Serializable {
 
     }
 
-    interface MetaData extends Serializable {
+    public interface MetaData extends Serializable {
         String getHostName();
 
         String getHostIpAddress();
